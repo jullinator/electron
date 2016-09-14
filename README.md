@@ -1,18 +1,18 @@
 First
 --------------------
-  - !Make sure you have "npm i -g shelljs
-  - 
+!Make sure you have "npm i -g shelljs
+  
 Config
 ---------------------
 
-  - cd to 'shell'
-  - configure values in there
-  - 'shjs s' 
+cd to 'shell'
+configure values in there
+'shjs s' 
 Then
 -------------------
 
-  -npm install
-  -npm start
+npm install
+npm start
 
 Files
 ---------------
