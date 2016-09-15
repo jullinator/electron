@@ -1,11 +1,17 @@
 //  FLASHCARD.JS
+const 
+  RESCHEDULE = 'RESCHEDULE',
+  SAVE = 'SAVE',
+  DELETE = 'DELETE'
+;
+
 
 const SCHEMA = {
   expression: String,
   meaning: String,
   created: Date,
-  
-}
+  review: Date
+} // created= DAY , review = DAY to review it . 
 
 var EventEmitter = require('events')
 
@@ -14,7 +20,9 @@ class onFlashcard extends EventEmitter {
     super()
     
   }
-  reschedule(){ }
+  RESCHEDULE  ( DAYS = 3 ){   this.emit( RESCHEDULE, DAYS)  }
+
+  
 }
 
 
